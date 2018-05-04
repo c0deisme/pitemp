@@ -12,4 +12,4 @@ well, it exports a variable with the value of vcgencmd measure_temp and echoes i
 
 
 in a nut*shell* you could just use that:
-´export $(vcgencmd measure_temp) && echo $temp´
+`export $(vcgencmd measure_temp) && echo $temp`
